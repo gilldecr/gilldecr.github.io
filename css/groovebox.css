@@ -1,0 +1,93 @@
+/*=====OTHER PAGES=====*/
+.menu-wrapper{
+    width: 100%;
+}
+.menu-list{
+    float: right;
+    padding-top: 30px;
+    padding-right: 20px;
+}
+.menu > ul > li > a{
+    text-decoration: none;
+    display: block;
+    color: black;
+    font-family: 'Hind', sans-serif;
+    font-size: 16pt;
+    font-weight: 700;
+}
+.menu > ul > li{
+    list-style-type: none;
+    float: left;
+    padding-left: 30px;
+}
+.banner-container{
+    padding-top: 90px;
+}
+.color-banner{
+    height: 100px;
+    background-color: rgb(20, 221, 164);
+}
+#title-tekst{
+    color: white;
+    font-size: 60pt;
+    line-height: 75px;
+    font-weight: 700;
+    margin: 0px;
+    padding-top: 15px;
+    text-decoration: none;
+}
+#header-text{
+    padding-left: 30px;
+}
+#title-subtekst{
+    color: white;
+    width: 100%;
+    line-height: 0px;
+}
+.content-container{
+    width: 100%;
+}
+#text-box-container{
+    padding-top: 20px;
+}
+#partner{
+    height: 75px;
+    padding-right: 70px;
+}
+#partner-end{
+    height: 75px;
+}
+#pen-icon{
+    height: 25px;
+}
+#bottom-banner{
+    padding-top: 20px;
+}
+#bottom-banner-pic{
+    width: 100%;
+}
+#footer{
+    padding-top: 45px;
+}
+.footer-line{
+    height: 1px;
+    background-color: lightgray;
+    width: 100%;
+}
+#footer-text{
+    font-size: 10pt;
+}
+#footer-text-row{
+    padding-bottom: 20px;
+}
+
+/*=====RESPONSIVE=====*/
+
+@media screen and (max-width: 800px){
+    #header-background-image{
+        display: block;
+    }
+    #header-background-image-G{
+        display: none;
+    }
+} 
